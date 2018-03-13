@@ -1,16 +1,14 @@
 {
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "eslint.autoFixOnSave": true,
   "eslint.validate": [
     "javascript",
-    "javascriptreact",
     "html",
     {
       "language": "vue",
       "autoFix": true
     }
   ],
-  "vetur.validation.script": false,
   "vetur.format.defaultFormatter.js": "none",
   "path-intellisense.mappings": {
     "@": "${workspaceRoot}/src"
