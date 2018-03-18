@@ -3,9 +3,14 @@
   "eslint.autoFixOnSave": true,
   "eslint.validate": [
     "javascript",
+    "javascriptreact",
     "html",
     {
       "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
       "autoFix": true
     }
   ],
@@ -15,5 +20,8 @@
   },
   "languageStylus.useSeparator": false,
   "languageStylus.useBuiltinFunctions": false,
-  "vetur.format.defaultFormatter.stylus": "none"
+  "vetur.format.defaultFormatter.stylus": "none",
+  "eslint.packageManager": "yarn",
+  "tslint.enable": false,
+  "tslint.typeCheck": true
 }
