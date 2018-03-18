@@ -3,10 +3,9 @@
 </template>
 
 <script lang="ts">
+import './home.styl'
 import { Component, Vue } from 'vue-property-decorator'
 
 @Component
-export default class Home extends Vue {
-  test = 12
-}
+export default class Home extends Vue {}
 </script>
